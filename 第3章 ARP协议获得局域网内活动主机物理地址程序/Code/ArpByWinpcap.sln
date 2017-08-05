@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArpByWinpcap", "ArpByWinpcap.vcproj", "{33FE6D8F-8FAA-4617-8144-24B8FCC22A46}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{33FE6D8F-8FAA-4617-8144-24B8FCC22A46}.Debug.ActiveCfg = Debug|Win32
+		{33FE6D8F-8FAA-4617-8144-24B8FCC22A46}.Debug.Build.0 = Debug|Win32
+		{33FE6D8F-8FAA-4617-8144-24B8FCC22A46}.Release.ActiveCfg = Release|Win32
+		{33FE6D8F-8FAA-4617-8144-24B8FCC22A46}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

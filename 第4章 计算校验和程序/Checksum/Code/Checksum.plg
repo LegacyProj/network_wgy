@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Checksum - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP180.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Checksum.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\程序_刘乾\程序（完整）\第4章 计算校验和程序\Checksum\Code\Checksum.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP180.tmp" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:yes /pdb:"Debug/Checksum.pdb" /debug /machine:I386 /out:"Debug/Checksum.exe" /pdbtype:sept  ".\Debug\Checksum.obj" "
+<h3>Output Window</h3>
+Compiling...
+Checksum.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Checksum.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

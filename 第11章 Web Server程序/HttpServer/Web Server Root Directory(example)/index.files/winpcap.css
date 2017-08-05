@@ -1,0 +1,66 @@
+BODY {
+	FONT-SIZE: 0.8em; FONT-FAMILY: Verdana,Arial,Helvetica,Sans Serif
+}
+TBODY {
+	FONT-SIZE: 0.8em; FONT-FAMILY: Verdana,Arial,Helvetica,Sans Serif
+}
+BODY {
+	BACKGROUND-COLOR: #aaccdd
+}
+H1 {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; BACKGROUND-COLOR: #ffffcc
+}
+H2 {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; BACKGROUND-COLOR: #ffffcc
+}
+H1 {
+	FONT-SIZE: 1.6em; MARGIN-LEFT: 10%; MARGIN-RIGHT: 10%; TEXT-ALIGN: center; font-align: center
+}
+H2 {
+	FONT-SIZE: 1.4em
+}
+H3 {
+	FONT-SIZE: 1.3em
+}
+H4 {
+	FONT-SIZE: 1.2em
+}
+H5 {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 1.1em; MARGIN-LEFT: 0%; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; BACKGROUND-COLOR: #ffffcc; TEXT-ALIGN: left; font-align: left
+}
+CODE {
+	FONT-SIZE: 1.2em
+}
+TT {
+	FONT-SIZE: 1.2em
+}
+:link {
+	COLOR: #3333ff
+}
+:visited {
+	COLOR: #7788ee
+}
+:active {
+	COLOR: #1133ff
+}
+.menu {
+	CURSOR: hand; BACKGROUND-COLOR: #77bbee
+}
+.anchmenu {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+:visited {
+	COLOR: #000000
+}
+:active {
+	COLOR: #000000
+}
+.titlebox {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 18pt; BORDER-LEFT: #000000 1px solid; WIDTH: 90%; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Arial; POSITION: relative; BACKGROUND-COLOR: #ffffcc
+}
+.titleboxsmall {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 14pt; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffcc
+}
+#ad160x600 {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #000000 1px solid; WIDTH: 160px; MARGIN-RIGHT: 5px; PADDING-TOP: 0px; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 600px
+}

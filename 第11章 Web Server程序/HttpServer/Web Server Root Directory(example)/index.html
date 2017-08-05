@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0023)http://www.winpcap.org/ -->
+<!-- saved from url=(0024)http://netgroup/winpcap/ --><HTML><HEAD><TITLE>WinPcap, The Packet Capture and Network Monitoring Library for Windows</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META http-equiv=Content-Language content=en-us>
+<META 
+content="packet capture, packet filtering, packet injection, network monitoring, network driver, packet driver, network traffic generation, Windows Drivers, network monitoring, network analysis, network traffic analysis, packet analyzers, protocol analyzers, network troubleshooting, network analysis, network tools, TCP/IP, Ethernet, Ethernet analysis, network traffic injection, traffic generation" 
+name=keywords>
+<META 
+content="Packet library for Windows. WinPcap is the standard tool for link-layer network access in the Windows environments: it can be used to capture and transmit raw network packets and has many useful advanced features, including kernel-level filtering, a network statistics engine and support for remote capture. WinPcap consists of a driver, that extends the operating system to provide low-level network access and a library that developer's can use to easily access the low-level network layers." 
+name=description><LINK href="index.files/winpcap.css" type=text/css 
+rel=stylesheet>
+<META content="MSHTML 6.00.2900.3132" name=GENERATOR></HEAD>
+<BODY vLink=#b7a787 aLink=#b7a787 link=#776747 bgColor=#dfd7c7>
+<H1>WinPcap: The Windows Packet Capture Library</H1>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=left rowSpan=4><!--webbot bot="Include" U-Include="buttons.htm" TAG="BODY" startspan -->
+      <TABLE style="MARGIN-RIGHT: 10px" borderColor=#666666 cellSpacing=0 
+      cellPadding=2 bgColor=#000000 border=1>
+        <TBODY>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.winpcap.org/default.htm">Home&nbsp;&nbsp;&nbsp;&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.winpcap.org/news.htm">News&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu href="http://www.winpcap.org/install/default.htm">Get 
+            WinPcap&nbsp;&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.winpcap.org/windump/install/default.htm">Get 
+            WinDump&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.winpcap.org/devel.htm">Development&nbsp;&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.winpcap.org/contact.htm">Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.cacetech.com/products/index.htm?utm_source=Winpcap&amp;utm_medium=cpc&amp;utm_term=products&amp;utm_content=products&amp;utm_campaign=Winpcap_Product">Products&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.winpcap.org/misc/links.htm">Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.winpcap.org/misc/faq.htm">FAQ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><NOBR><A 
+            class=anchmenu href="http://www.winpcap.org/misc/credits.htm">The 
+            Team&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A></NOBR></TD></TR>
+        <TR>
+          <TD class=menu onmouseover="style.background='#ffffcc'" 
+          onmouseout="style.background='#77bbee'" borderColor=black><A 
+            class=anchmenu 
+            href="http://www.winpcap.org/misc/copyright.htm">License&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A></TD></TR></TBODY></TABLE><!--webbot bot="Include" endspan i-checksum="43419" --></TD>
+    <TD vAlign=top bgColor=#ffffff><IMG height=28 src="index.files/curve.gif" 
+      width=31 border=0></TD></TR>
+  <TR>
+    <TD vAlign=top bgColor=#ffffff>
+      <TABLE cellSpacing=0 cellPadding=9 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE id=table2 cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD vAlign=top>
+                  <H2>Description</H2>
+                  <DIV align=right>
+                  <TABLE id=table5 cellSpacing=0 cellPadding=0 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD align=right>Stable release</TD>
+                      <TD><B>&nbsp; WinPcap 4.0</B></TD></TR>
+                    <TR>
+                      <TD align=right>Latest release</TD>
+                      <TD><B>&nbsp; WinPcap 4.0 </B></TD></TR></TBODY></TABLE></DIV>
+                  <P align=justify><FONT size=4>W</FONT>inPcap is the 
+                  industry-standard tool for link-layer network access in 
+                  Windows environments: it allows applications to capture and 
+                  transmit network packets bypassing the protocol stack, and has 
+                  additional useful features, including kernel-level packet 
+                  filtering, a network statistics engine and support for remote 
+                  packet capture. </P>
+                  <P align=justify><FONT size=4>W</FONT>inPcap consists of a 
+                  driver, that extends the operating system to provide low-level 
+                  network access, and a library that is used to easily access 
+                  the low-level network layers. This library also contains the 
+                  Windows version of the well known <I>libpcap</I> Unix API.</P>
+                  <P align=justify><FONT size=4>T</FONT>hanks to its <A 
+                  href="http://www.winpcap.org/misc/features.htm">set of 
+                  features</A>, WinPcap is the packet capture and filtering 
+                  engine of <A 
+                  href="http://www.winpcap.org/misc/links.htm#tools">many open 
+                  source and commercial network tools</A>, including protocol 
+                  analyzers, network monitors, network intrusion detection 
+                  systems, sniffers, traffic generators and network testers. 
+                  Some of these tools, like <I>Wireshark</I>, <I>Nmap</I>, 
+                  <I>Snort</I>, <I>ntop</I> are known and used throughout the 
+                  networking community.</P>
+                  <P align=justify><FONT size=4>W</FONT>inpcap.org is also the 
+                  home of <A href="http://www.winpcap.org/windump/">WinDump</A>, 
+                  the Windows version of the popular tcpdump tool. WinDump can 
+                  be used to watch, diagnose and save to disk network traffic 
+                  according to various complex rules.</P>
+                  <P align=justify>&nbsp;</P>
+                  <TABLE id=table4 cellSpacing=0 cellPadding=0 width="100%" 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD><I><IMG height=24 src="index.files/New.gif" width=24 
+                        align=right border=0></I></TD>
+                      <TD width="50%">
+                        <P align=center><A 
+                        href="http://www.cacetech.com/products/airpcap.htm">AirPcap, 
+                        the first open, affordable and easy to deploy WLAN 
+                        (802.11b/g) packet capture solution for the Windows 
+                        platform.</A></P></TD>
+                      <TD><I><IMG height=24 src="index.files/New.gif" width=24 
+                        align=left border=0></I></TD></TR></TBODY></TABLE>
+                  <P align=justify>&nbsp;&nbsp;&nbsp; </P></TD>
+                <TD width=20>&nbsp; </TD>
+                <TD vAlign=top><I><!--webbot bot="Include" U-Include="banner.htm" TAG="BODY" startspan -->
+                  <DIV id=ad160x600>
+                  <SCRIPT type=text/javascript>
+  function link(){
+    window.location.href="http://www.cacetech.com/products/airpcap.htm?utm_source=Winpcap&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"; 
+  } 
+</SCRIPT>
+
+                  <TABLE onmouseover="this.style.cursor='pointer'" 
+                  onclick=link() borderColor=#ffffcc height=600 cellSpacing=1 
+                  width=160 bgColor=#eeeeee border=0>
+                    <CAPTION></CAPTION>
+                    <TBODY>
+                    <TR>
+                      <TD><IMG height=67 alt="AirPcap Logo" 
+                        src="index.files/airpcap.gif" width=150 border=0></TD></TR>
+                    <TR>
+                      <TD>
+                        <P align=center><I>Because You Need All the 
+                        Information!</I></P></TD></TR>
+                    <TR>
+                      <TD align=middle>AirPcap is a USB 2.0 Wi-Fi Capture 
+                        Adapter for Windows</TD></TR>
+                    <TR>
+                      <TD align=middle>Because it is designed for use with 
+                        Windows and Wireshark, AirPcap enables more information 
+                        about the radio waves to be captured.</TD></TR>
+                    <TR>
+                      <TD align=middle>Now you can troubleshoot wireless 
+                        problems related to management and control signals like 
+                        beaconing and probe signals.</TD></TR>
+                    <TR>
+                      <TD align=middle><U><FONT color=#0000ff>Click Here to 
+                        find out more</FONT></U></TD></TR>
+                    <TR>
+                      <TD><IMG height=78 alt="CACE Logo" 
+                        src="index.files/cace_logo.gif" width=154 
+                    border=0></TD></TR></TBODY></TABLE></DIV><!--webbot bot="Include" endspan i-checksum="18741" --></I></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=bottom bgColor=#ffffff><IMG height=28 
+      src="index.files/curvedown.gif" width=31 border=0></TD></TR>
+  <TR>
+    <TD vAlign=bottom>
+      <P align=right><I><BR>Last modified: <!--webbot bot="Timestamp"
+            S-Type="EDITED" S-Format="%A, %B %d, %Y %H.%M" startspan -->Tuesday, 
+      January 23, 2007 21.52<!--webbot bot="Timestamp" endspan i-checksum="1753" --> 
+  </I></P></TD></TR></TBODY></TABLE>
+<P align=right><I></I>&nbsp;</P></BODY></HTML>

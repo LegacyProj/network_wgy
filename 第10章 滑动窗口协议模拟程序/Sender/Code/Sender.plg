@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sender - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Sender.res" /d "_DEBUG" "E:\Netlab\书稿\最终稿\光盘\程序\搞定\第10章 滑动窗口协议模拟程序\Sender\Sender.rc"" 
+Creating temporary file "C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP72.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Sender.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Netlab\书稿\最终稿\光盘\程序\搞定\第10章 滑动窗口协议模拟程序\Sender\Sender.cpp"
+"E:\Netlab\书稿\最终稿\光盘\程序\搞定\第10章 滑动窗口协议模拟程序\Sender\SenderDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP72.tmp" 
+Creating temporary file "C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP73.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Sender.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Netlab\书稿\最终稿\光盘\程序\搞定\第10章 滑动窗口协议模拟程序\Sender\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP73.tmp" 
+Creating command line "link.exe Ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Sender.pdb" /debug /machine:I386 /out:"Debug/Sender.exe" /pdbtype:sept  ".\Debug\Sender.obj" ".\Debug\SenderDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Sender.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Sender.cpp
+SenderDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Sender.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Sender.sbr" ".\Debug\SenderDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Sender.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

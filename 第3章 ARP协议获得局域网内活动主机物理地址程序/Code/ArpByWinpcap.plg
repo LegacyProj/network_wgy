@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ArpByWinpcap - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Abel\LOCALS~1\Temp\RSP13A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ArpByWinpcap.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\C++\ArpByWinpcap\ArpByWinpcapDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abel\LOCALS~1\Temp\RSP13A.tmp" 
+Creating temporary file "C:\DOCUME~1\Abel\LOCALS~1\Temp\RSP13B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ArpByWinpcap.pdb" /machine:I386 /out:"Release/ArpByWinpcap.exe" 
+".\Release\ArpByWinpcap.obj"
+".\Release\ArpByWinpcapDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\ArpByWinpcap.res"
+".\wpcap.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Abel\LOCALS~1\Temp\RSP13B.tmp"
+<h3>Output Window</h3>
+Compiling...
+ArpByWinpcapDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ArpByWinpcap.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

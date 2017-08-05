@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClientBySocket - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ClientBySocket.res" /d "_DEBUG" "E:\Netlab\书稿\最终稿\光盘\程序\搞定\第9章 基于C_S结构的Socket程序设计\WSAAsyncSelect异步窗口程序\Code\Client\ClientBySocket.rc"" 
+Creating temporary file "C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP1F4.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/ClientBySocket.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Netlab\书稿\最终稿\光盘\程序\搞定\第9章 基于C_S结构的Socket程序设计\WSAAsyncSelect异步窗口程序\Code\Client\ClientBySocket.cpp"
+"E:\Netlab\书稿\最终稿\光盘\程序\搞定\第9章 基于C_S结构的Socket程序设计\WSAAsyncSelect异步窗口程序\Code\Client\ClientBySocketDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP1F4.tmp" 
+Creating temporary file "C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP1F5.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/ClientBySocket.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Netlab\书稿\最终稿\光盘\程序\搞定\第9章 基于C_S结构的Socket程序设计\WSAAsyncSelect异步窗口程序\Code\Client\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP1F5.tmp" 
+Creating temporary file "C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP1F6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ClientBySocket.pdb" /debug /machine:I386 /out:"Debug/ClientBySocket.exe" /pdbtype:sept 
+".\Debug\ClientBySocket.obj"
+".\Debug\ClientBySocketDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ClientBySocket.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\wangjun\LOCALS~1\Temp\RSP1F6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientBySocket.cpp
+ClientBySocketDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ClientBySocket.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ClientBySocket.sbr" ".\Debug\ClientBySocketDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ClientBySocket.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

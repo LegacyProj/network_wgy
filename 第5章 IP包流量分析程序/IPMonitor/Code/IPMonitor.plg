@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IPMonitor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP187.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/IPMonitor.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\程序_刘乾\程序（完整）\第5章 IP包流量分析\IPMonitor\Code\IPMonitor.cpp"
+"C:\Documents and Settings\Administrator\桌面\程序_刘乾\程序（完整）\第5章 IP包流量分析\IPMonitor\Code\IPNode.cpp"
+"C:\Documents and Settings\Administrator\桌面\程序_刘乾\程序（完整）\第5章 IP包流量分析\IPMonitor\Code\NodeList.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP187.tmp" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:yes /pdb:"Debug/IPMonitor.pdb" /debug /machine:I386 /out:"Debug/IPMonitor.exe" /pdbtype:sept  ".\Debug\IPMonitor.obj" ".\Debug\IPNode.obj" ".\Debug\NodeList.obj" "
+<h3>Output Window</h3>
+Compiling...
+IPMonitor.cpp
+IPNode.cpp
+NodeList.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/IPMonitor.bsc"  ".\Debug\IPMonitor.sbr" ".\Debug\IPNode.sbr" ".\Debug\NodeList.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+IPMonitor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
